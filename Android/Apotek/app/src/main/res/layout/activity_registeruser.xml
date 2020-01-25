@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".registeruser"
+    android:background="@drawable/orang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRASI"
+        android:textSize="24dp"
+        android:textColor="@color/putih"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtuserregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+        <EditText
+            android:id="@+id/txtnamaregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:gravity="center"
+            android:inputType="textAutoComplete" />
+
+
+        <EditText
+            android:id="@+id/txtpassregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="Registrasi" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:text="Anda sudah memiliki akun? " />
+
+            <Button
+                android:id="@+id/btnlinklogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="masuk disini"
+                android:textColor="@color/blue" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

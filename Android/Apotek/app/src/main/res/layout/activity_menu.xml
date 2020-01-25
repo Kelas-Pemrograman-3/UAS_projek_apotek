@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/putih"
+tools:context=".menu">
+
+
+        <LinearLayout
+            android:id="@+id/Linearapotik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/apotikk"
+                android:padding="10dp"
+                android:tint="#FFFFFF"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linkobat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/txtmenu1"
+                        android:layout_width="256dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/obat"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/abu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Obat"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Linkkeranjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/txtmenu2"
+                        android:layout_width="238dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/keranjang"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/abu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Keranjang"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/txtlihatkeranjang"
+                        android:layout_width="256dp"
+                        android:layout_height="100dp"
+                        android:padding="20dp"
+                        android:src="@drawable/supermarket"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/abu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Lihat yang sudah di Pesan"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout><LinearLayout
+            android:id="@+id/Linkkeluar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/txtkeluar"
+                android:layout_width="256dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/logout"
+                tools:ignore="VectorDrawableCompat" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="1dp"
+                android:background="@color/abu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Logout"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

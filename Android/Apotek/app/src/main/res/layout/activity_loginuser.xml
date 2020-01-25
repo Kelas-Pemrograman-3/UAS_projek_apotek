@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orang"
+    android:gravity="center"
+    tools:context=".loginuser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:backgroundTint="@color/putih"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/putih"
+            android:layout_marginBottom="2dp"
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/txtuserlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Username"
+            android:textStyle="bold"
+            android:background="@color/putih"
+            android:layout_marginBottom="10dp"
+            android:inputType="textAutoComplete"
+            />
+
+        <EditText
+            android:id="@+id/txtpasslogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/hijau"
+            android:id="@+id/btnlogin"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum Punya Akun ?"
+                android:textColor="@color/putih"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                android:text="Klik Disini"
+                android:textColor="@color/blue"
+                android:id="@+id/btnlinkregister"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

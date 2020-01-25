@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".keranjang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/rounded_backgound"
+        >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/keranjang"
+                    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PESANAN ANDA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txtnamaobatd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Masukan Nama Obat"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:inputType="textAutoComplete"
+            />
+
+        <EditText
+            android:id="@+id/txtjumlahobatd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Masukan Jumlah Obat"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:inputType="textAutoComplete"
+            />
+
+        <EditText
+            android:id="@+id/txthargaobatd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Masukan Harga Obat"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:inputType="textAutoComplete"
+            />
+
+        <EditText
+            android:id="@+id/txttotalhargad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Masukan Total Harga"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:inputType="textAutoComplete"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PESAN"
+            android:id="@+id/btnpesanan"
+            android:background="@color/blue"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
